@@ -19,6 +19,10 @@ import { RecrutementComponent } from './entreprise/recrutement/recrutement.compo
 import { CharteQualiteComponent } from './entreprise/charte-qualite/charte-qualite.component';
 import { FormComponent } from './entreprise/recrutement/form/form.component';
 
+import { CarbonateComponent } from './gammeDeProduits/carbonate/carbonate.component';
+import { ChauxComponent } from './gammeDeProduits/chaux/chaux.component';
+import { SiliceComponent } from './gammeDeProduits/silice/silice.component';
+
 @NgModule({
     imports: [
         CommonModule,
@@ -40,7 +44,11 @@ import { FormComponent } from './entreprise/recrutement/form/form.component';
         DomaineComponent,
         RecrutementComponent,
         CharteQualiteComponent,
-        FormComponent
+        FormComponent,
+       
+        CarbonateComponent,
+        ChauxComponent,
+        SiliceComponent
     ],
     entryComponents: [NgbdModalContent],
     exports:[ ComponentsComponent ]
